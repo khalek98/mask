@@ -1,0 +1,46 @@
+.about {
+    padding-top: 80px;
+    z-index: 10;
+    overflow: hidden;
+
+    &__wrapper {
+        display: grid;
+        gap: 80px;
+    }
+
+    &__side-wrapper {
+        max-width: 523px;
+        margin-top: 10px;
+    }
+    
+    &__block {
+        display: grid;
+        grid-template: max(616px) / auto auto;
+        justify-content: space-between;
+        z-index: 10;
+    }
+
+    &__text {
+        max-width: 523px;
+        margin-top: 10px;
+    }
+
+    &__descr {
+        margin-top: 25px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #575C74;
+        
+        span {
+            font-weight: 700;
+        }
+    }
+
+    &__img {
+        width: 570px;
+        min-height: 616px;
+    }
+
+}
