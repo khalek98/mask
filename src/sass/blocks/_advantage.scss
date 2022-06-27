@@ -1,0 +1,56 @@
+.advantage {
+    margin-top: 70px;
+
+    &__blocks {
+        display: grid;
+        grid-template: minmax(0, 180px) / repeat(4, auto);
+        gap: 31px;
+    }
+
+    &__block {
+        display: grid;
+        grid-template: 100% / 40px 200px;
+        gap: 20px;
+
+        &-icon {
+            margin-top: 6px;
+            height: 40px;
+            width: 40px;
+    
+            &_box {
+                background: url('../icons/main/box.svg');
+            }
+
+            &_shield {
+                background: url('../icons/main/shield.svg');
+            }
+            
+            &_support {
+                background: url('../../icons/main/operator.svg');
+            }
+
+            &_payment {
+                background: url('../../icons/main/credit-card.svg');
+            }
+        }
+
+        &-title {
+            font-family: 'Open Sans';
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 28px;
+            color: #0C122D;
+
+        }
+
+        &-descr {
+            margin-top: 15px;
+            font-family: 'Open Sans';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 15px;
+            line-height: 22px;
+            color: #575C74;
+        }
+    }
+}

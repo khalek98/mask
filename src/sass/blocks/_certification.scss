@@ -1,0 +1,27 @@
+.certification {
+    margin-top: 80px;
+
+    &__wrapper {
+        display: flex;
+        align-items: center;
+    }
+
+    &__label {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 24px;
+        /* Grey */
+        color: #575C74;
+    }
+
+    &__divider {
+        margin-left: 16px;
+    }
+
+    &__items {
+        display: flex;
+        margin-left: 87px;
+        gap: 100px;
+    }
+}

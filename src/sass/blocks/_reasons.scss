@@ -1,0 +1,72 @@
+.reasons {
+    margin-top: 80px;
+
+    &__wrapper {
+        display: grid;
+        grid-template: minmax(630px, auto) / minmax(400px, auto) 650px;
+        column-gap: 90px;
+    }
+
+    &__descr {
+        margin-top: 28px;
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 30px;
+        color: #575C74;
+    }
+
+    &__blocks {
+        margin-top: 35px;
+        display: grid;
+        grid-template: 128px 160px / repeat(2, 312px);
+        gap: 36px  26px;
+    }
+
+    &__block {
+        display: grid;
+        grid-template: auto auto / 56px 238px;
+        gap: 3px 18px;
+
+    }
+
+    &__subtitle {
+        margin: 0;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 28px;
+        color: #0C122D;
+    }
+
+    &__text {
+        font-family: 'Open Sans';
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 22px;
+        color: #575C74;
+    }
+
+    &__icon {
+        margin-top: 5px;
+        grid-row: 1/3;
+        height: 56px;
+        width: 56px;
+
+        &_cup {
+            background: url('../../icons/reasons/cup.svg') center center / cover no-repeat;
+        }
+        
+        &_innovation {
+            background: url('../../icons/reasons/innovation.svg') center center / cover no-repeat;
+        }
+        
+        &_safer {
+            background: url('../../icons/reasons/safer.svg') center center / cover no-repeat;
+        }
+
+        &_people {
+            background: url('../../icons/reasons/people.svg') center center / cover no-repeat;
+        }
+    }
+}
