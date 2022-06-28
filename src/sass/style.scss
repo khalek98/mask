@@ -37,24 +37,25 @@ body {
     }
 }
 
-.vector {
-    position: absolute;
-    width: 1039px;
-    height: 1461px;
-    background: url('../icons/vector.svg') center (center/contain) no-repeat;
+// .vector {
+//     position: absolute;
+//     width: 760px;
+//     height: 1461px;
 
-    &_left {
-        top: 1002px;
-        left: -338px; 
-    }
+//     // &_left {
+//     //     top: 1002px;
+//     //     left: -338px; 
+//     // }
 
-    &_right {
-        top: 1965px;
-        right: -338px;
-        transform: rotateY(180deg);
-    }
+//     &_right {
+//         // width: ;
+//         top: 770px;
+//         right: 0;
+//         transform: rotateY(180deg);
+//     }
     
-}
+// }
+
 
 @import './blocks/header';
 @import './blocks/buttons';

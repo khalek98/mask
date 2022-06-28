@@ -1,7 +1,8 @@
 .about {
     padding-top: 80px;
+    position: relative;
     z-index: 10;
-    overflow: hidden;
+    // overflow: hidden;
 
     &__wrapper {
         display: grid;
@@ -15,7 +16,7 @@
     
     &__block {
         display: grid;
-        grid-template: max(616px) / auto auto;
+        grid-template: minmax(600px, auto) / auto auto;
         justify-content: space-between;
         z-index: 10;
     }
@@ -41,6 +42,30 @@
     &__img {
         width: 570px;
         min-height: 616px;
+    }
+
+    .vector {
+        position: absolute;
+        width: 760px;
+        height: 1461px;
+    
+        &_left {
+            top: -193px;
+            left: 0; 
+        }
+    
+        &_right {
+            z-index: -1;
+            top: 770px;
+            right: 0;
+            transform: rotateY(180deg);
+        }
+    }
+
+    .arrow {
+        height: 100%;
+        width: 100%;
+        background: url('../icons/vector.svg') center (right/cover) no-repeat;
     }
 
 }
